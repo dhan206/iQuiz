@@ -13,11 +13,7 @@
 		568AC8751EB986C4004F2B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568AC8731EB986C4004F2B50 /* LaunchScreen.storyboard */; };
 		568AC8801EB986C5004F2B50 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC87F1EB986C5004F2B50 /* iQuizTests.swift */; };
 		568AC88B1EB986C5004F2B50 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC88A1EB986C5004F2B50 /* iQuizUITests.swift */; };
-		568AC89D1EB9976E004F2B50 /* marvelIcon in Resources */ = {isa = PBXBuildFile; fileRef = 568AC89C1EB9976E004F2B50 /* marvelIcon */; };
-		568AC89F1EB99774004F2B50 /* scienceIcon in Resources */ = {isa = PBXBuildFile; fileRef = 568AC89E1EB99774004F2B50 /* scienceIcon */; };
-		568AC8A11EB99779004F2B50 /* mathIcon in Resources */ = {isa = PBXBuildFile; fileRef = 568AC8A01EB99779004F2B50 /* mathIcon */; };
 		568AC8A51EB99B99004F2B50 /* QuizTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC8A41EB99B99004F2B50 /* QuizTopicViewController.swift */; };
-		568AC8A71EB9A21B004F2B50 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 568AC8A61EB9A21B004F2B50 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +46,7 @@
 		568AC8861EB986C5004F2B50 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568AC88A1EB986C5004F2B50 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		568AC88C1EB986C5004F2B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		568AC89C1EB9976E004F2B50 /* marvelIcon */ = {isa = PBXFileReference; lastKnownFileType = file; name = marvelIcon; path = "../../../../../Downloads/my-icons-collection (11)/png/marvelIcon"; sourceTree = "<group>"; };
-		568AC89E1EB99774004F2B50 /* scienceIcon */ = {isa = PBXFileReference; lastKnownFileType = file; name = scienceIcon; path = "../../../../../Downloads/my-icons-collection (11)/png/scienceIcon"; sourceTree = "<group>"; };
-		568AC8A01EB99779004F2B50 /* mathIcon */ = {isa = PBXFileReference; lastKnownFileType = file; name = mathIcon; path = "../../../../../Downloads/my-icons-collection (11)/png/mathIcon"; sourceTree = "<group>"; };
 		568AC8A41EB99B99004F2B50 /* QuizTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTopicViewController.swift; sourceTree = "<group>"; };
-		568AC8A61EB9A21B004F2B50 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../../../Downloads/settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +97,6 @@
 		568AC8691EB986C4004F2B50 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				568AC8A61EB9A21B004F2B50 /* settings.png */,
-				568AC89C1EB9976E004F2B50 /* marvelIcon */,
-				568AC89E1EB99774004F2B50 /* scienceIcon */,
-				568AC8A01EB99779004F2B50 /* mathIcon */,
 				568AC86A1EB986C4004F2B50 /* AppDelegate.swift */,
 				568AC86E1EB986C4004F2B50 /* Main.storyboard */,
 				568AC8711EB986C4004F2B50 /* Assets.xcassets */,
@@ -247,13 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568AC89F1EB99774004F2B50 /* scienceIcon in Resources */,
-				568AC8A71EB9A21B004F2B50 /* settings.png in Resources */,
 				568AC8751EB986C4004F2B50 /* LaunchScreen.storyboard in Resources */,
 				568AC8721EB986C4004F2B50 /* Assets.xcassets in Resources */,
 				568AC8701EB986C4004F2B50 /* Main.storyboard in Resources */,
-				568AC89D1EB9976E004F2B50 /* marvelIcon in Resources */,
-				568AC8A11EB99779004F2B50 /* mathIcon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +518,7 @@
 				568AC8911EB986C5004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AC8921EB986C5004F2B50 /* Build configuration list for PBXNativeTarget "iQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +527,7 @@
 				568AC8941EB986C5004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AC8951EB986C5004F2B50 /* Build configuration list for PBXNativeTarget "iQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +536,7 @@
 				568AC8971EB986C5004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
