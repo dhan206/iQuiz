@@ -60,18 +60,18 @@ class QuizTopicDataModel: NSObject, UITableViewDataSource, UITableViewDelegate {
     weak var delegate: QuizDelegate?
     
     var Quizzes: [Quiz] = [
-        Quiz(topic: "Mathematics", description: "The study of topics such as quanitity, structure, space, and change.", icon: "mathIcon", questions: [
+        Quiz(topic: "Mathematics", description: "The study of topics such as quanitity, structure, space, and change.", icon: "mathIcon.png", questions: [
             Question(question: "What is the sum of 1 + 1?", answer: "2", options: ["1", "2","3","4"]),
             Question(question: "What is the product of 3 x 3?", answer: "9", options: ["27", "12", "-19", "9"]),
             Question(question: "What is the the total of 5 - 5?", answer: "0", options: ["5", "0", "-10", "10"]),
             Question(question: "What is the result of 6 / 3?", answer: "2", options: ["1", "10", "2", "5"])
             ]
         ),
-        Quiz(topic: "Marvel Super Heroes", description: "Comic book superheroes: Spiderman, Ironman, The Hulk and more.", icon: "marvelIcon", questions: [
+        Quiz(topic: "Marvel Super Heroes", description: "Comic book superheroes: Spiderman, Ironman, The Hulk and more.", icon: "marvelIcon.png", questions: [
             Question(question: "Which superhero wears red, blue and black?", answer: "Spiderman", options: ["Iron Man", "The Hulk", "Spiderman", "Captain America"])
             ]
         ),
-        Quiz(topic: "Science", description: "Science is curiosity in thoughtful action about the world and how it behaves.", icon: "scienceIcon", questions: [
+        Quiz(topic: "Science", description: "Science is curiosity in thoughtful action about the world and how it behaves.", icon: "scienceIcon.png", questions: [
             Question(question: "What is the process plants use to make enegery?", answer: "Photosynthesis", options: ["Photosynthesis", "The Creb Cycle", "ATP Synthase", "Cytokinesis"])
             ]
         )

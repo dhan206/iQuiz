@@ -94,10 +94,10 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
         if (showAnswer) {
             AnswerImage.isHidden = false
             if (self.answer == question.answer) {
-                AnswerImage.image = UIImage.init(named: "check-mark")
+                AnswerImage.image = UIImage.init(named: "check-mark.png")
                 numberCorrectAnswers += 1
             } else {
-                 AnswerImage.image = UIImage.init(named: "cancel-mark")
+                 AnswerImage.image = UIImage.init(named: "cancel-mark.png")
             }
             questionNumber += 1
             showAnswer = false
