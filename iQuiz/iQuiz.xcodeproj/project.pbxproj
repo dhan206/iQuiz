@@ -17,11 +17,6 @@
 		568AC8A71EB9A21B004F2B50 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 568AC8A61EB9A21B004F2B50 /* settings.png */; };
 		56BAE5291EBE579700F753BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BAE5281EBE579700F753BF /* QuestionViewController.swift */; };
 		56BAE52D1EBFA2A200F753BF /* ScoreCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BAE52C1EBFA2A200F753BF /* ScoreCardViewController.swift */; };
-		56D801291EC239370022AB3C /* cancel-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D801241EC239370022AB3C /* cancel-mark.png */; };
-		56D8012A1EC239370022AB3C /* marvelIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D801251EC239370022AB3C /* marvelIcon.png */; };
-		56D8012B1EC239370022AB3C /* mathIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D801261EC239370022AB3C /* mathIcon.png */; };
-		56D8012C1EC239370022AB3C /* scienceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D801271EC239370022AB3C /* scienceIcon.png */; };
-		56D8012D1EC239370022AB3C /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D801281EC239370022AB3C /* check-mark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +53,6 @@
 		568AC8A61EB9A21B004F2B50 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../../../Downloads/settings.png; sourceTree = "<group>"; };
 		56BAE5281EBE579700F753BF /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		56BAE52C1EBFA2A200F753BF /* ScoreCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCardViewController.swift; sourceTree = "<group>"; };
-		56D801241EC239370022AB3C /* cancel-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cancel-mark.png"; path = "../../../../../Desktop/cancel-mark.png"; sourceTree = "<group>"; };
-		56D801251EC239370022AB3C /* marvelIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marvelIcon.png; path = ../../../../../Desktop/marvelIcon.png; sourceTree = "<group>"; };
-		56D801261EC239370022AB3C /* mathIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mathIcon.png; path = ../../../../../Desktop/mathIcon.png; sourceTree = "<group>"; };
-		56D801271EC239370022AB3C /* scienceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scienceIcon.png; path = ../../../../../Desktop/scienceIcon.png; sourceTree = "<group>"; };
-		56D801281EC239370022AB3C /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check-mark.png"; path = "../../../../../Desktop/check-mark.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +111,6 @@
 				568AC8761EB986C4004F2B50 /* Info.plist */,
 				568AC8A41EB99B99004F2B50 /* QuizTopicViewController.swift */,
 				56BAE5281EBE579700F753BF /* QuestionViewController.swift */,
-				56D801241EC239370022AB3C /* cancel-mark.png */,
-				56D801251EC239370022AB3C /* marvelIcon.png */,
-				56D801261EC239370022AB3C /* mathIcon.png */,
-				56D801271EC239370022AB3C /* scienceIcon.png */,
-				56D801281EC239370022AB3C /* check-mark.png */,
 				56BAE52C1EBFA2A200F753BF /* ScoreCardViewController.swift */,
 			);
 			path = iQuiz;
@@ -260,13 +245,8 @@
 			files = (
 				568AC8A71EB9A21B004F2B50 /* settings.png in Resources */,
 				568AC8751EB986C4004F2B50 /* LaunchScreen.storyboard in Resources */,
-				56D8012B1EC239370022AB3C /* mathIcon.png in Resources */,
-				56D801291EC239370022AB3C /* cancel-mark.png in Resources */,
 				568AC8721EB986C4004F2B50 /* Assets.xcassets in Resources */,
-				56D8012D1EC239370022AB3C /* check-mark.png in Resources */,
-				56D8012C1EC239370022AB3C /* scienceIcon.png in Resources */,
 				568AC8701EB986C4004F2B50 /* Main.storyboard in Resources */,
-				56D8012A1EC239370022AB3C /* marvelIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
