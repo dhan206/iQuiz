@@ -103,10 +103,10 @@
 		568AC8691EB986C4004F2B50 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				568AC8A61EB9A21B004F2B50 /* settings.png */,
 				568AC86A1EB986C4004F2B50 /* AppDelegate.swift */,
 				568AC86E1EB986C4004F2B50 /* Main.storyboard */,
 				568AC8711EB986C4004F2B50 /* Assets.xcassets */,
+				568AC8A61EB9A21B004F2B50 /* settings.png */,
 				568AC8731EB986C4004F2B50 /* LaunchScreen.storyboard */,
 				568AC8761EB986C4004F2B50 /* Info.plist */,
 				568AC8A41EB99B99004F2B50 /* QuizTopicViewController.swift */,
