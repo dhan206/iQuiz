@@ -172,7 +172,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Back to Home"/>
                                 <connections>
-                                    <segue destination="apy-Jx-FuP" kind="showDetail" id="NRJ-Zi-tpF"/>
+                                    <segue destination="apy-Jx-FuP" kind="showDetail" identifier="backToHome" id="NRJ-Zi-tpF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -323,6 +323,6 @@
         <image name="settings.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PLb-lo-all"/>
+        <segue reference="NRJ-Zi-tpF"/>
     </inferredMetricsTieBreakers>
 </document>
