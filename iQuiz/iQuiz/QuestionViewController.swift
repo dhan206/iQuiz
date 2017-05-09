@@ -48,6 +48,7 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
         AnswerTitleLabel.isHidden = true
         AnswerText.isHidden = true
         AnswerImage.isHidden = true
+        SubmitButton.isEnabled = false
     }
     
     override func didReceiveMemoryWarning() {
@@ -82,12 +83,13 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         self.answer = question.options[indexPath.row]
+        SubmitButton.isEnabled = true
         return indexPath
     }
     
     @IBAction func SubmitAnswer(_ sender: Any) {
-        let option: UIViewAnimationOptions = .transitionFlipFromRight
-        
+        var option: UIViewAnimationOptions = .transitionFlipFromRight
+        var duration = 0.8
         // show question scene
         if (showAnswer) {
             AnswerImage.isHidden = false
@@ -108,10 +110,10 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
             } else {
                 SubmitButton.setTitle("View Score", for: .normal)
             }
-            
         } else { // show answer scene or scorecard
             if (questionNumber < quiz.questions.count) {
                 question = quiz.questions[questionNumber]
+                SubmitButton.isEnabled = false
                 AnswerOptionTable.isHidden = false
                 AnswerTitleLabel.isHidden = true
                 AnswerText.isHidden = true
@@ -123,8 +125,11 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
             } else {
                 performSegue(withIdentifier: ScoreCardSceneSegue, sender: self)
             }
+            duration = 0.5
+            option = .transitionFlipFromLeft
         }
-        UIView.transition(with: self.SceneCard, duration: 0.8, options: option, animations: nil, completion: nil)
+        
+        UIView.transition(with: self.SceneCard, duration: duration, options: option, animations: nil, completion: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

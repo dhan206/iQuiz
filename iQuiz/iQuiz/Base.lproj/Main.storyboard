@@ -278,16 +278,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rc7-yZ-bGI">
+                                <rect key="frame" x="16" y="454" width="343" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rc7-yZ-bGI" secondAttribute="trailing" id="0Sp-i8-iFK"/>
                             <constraint firstItem="Z8p-1p-Nxv" firstAttribute="centerX" secondItem="Odf-ko-fWx" secondAttribute="centerX" id="Ak1-4q-Ikb"/>
                             <constraint firstItem="jQ6-Xn-Taf" firstAttribute="top" secondItem="Z8p-1p-Nxv" secondAttribute="bottom" constant="10" id="F43-Eh-2pv"/>
                             <constraint firstItem="OMG-rg-J3n" firstAttribute="top" secondItem="D9F-XX-Lul" secondAttribute="bottom" constant="95" id="H1N-Fg-lQe"/>
                             <constraint firstItem="XXo-N3-xd3" firstAttribute="top" secondItem="D9F-XX-Lul" secondAttribute="bottom" constant="73" id="H6s-DU-PDF"/>
                             <constraint firstItem="bpO-Xi-dlA" firstAttribute="centerX" secondItem="Odf-ko-fWx" secondAttribute="centerX" id="QS2-7i-TdR"/>
+                            <constraint firstItem="rc7-yZ-bGI" firstAttribute="leading" secondItem="Odf-ko-fWx" secondAttribute="leadingMargin" id="QUb-Zw-i5R"/>
                             <constraint firstItem="X9B-8Z-hre" firstAttribute="leading" secondItem="XXo-N3-xd3" secondAttribute="trailing" constant="15.5" id="QrD-76-vIv"/>
+                            <constraint firstItem="rc7-yZ-bGI" firstAttribute="centerX" secondItem="Odf-ko-fWx" secondAttribute="centerX" id="VOr-nb-8Qb"/>
                             <constraint firstItem="X9B-8Z-hre" firstAttribute="top" secondItem="D9F-XX-Lul" secondAttribute="bottom" constant="95" id="Z4k-8l-yXe"/>
+                            <constraint firstItem="rc7-yZ-bGI" firstAttribute="top" secondItem="jQ6-Xn-Taf" secondAttribute="bottom" constant="50" id="eFn-Ok-rfr"/>
                             <constraint firstItem="2ku-D3-FXV" firstAttribute="top" secondItem="bpO-Xi-dlA" secondAttribute="bottom" constant="84" id="eQc-Ca-eQo"/>
                             <constraint firstItem="XXo-N3-xd3" firstAttribute="leading" secondItem="OMG-rg-J3n" secondAttribute="trailing" constant="15" id="emy-1R-EiY"/>
                             <constraint firstItem="XXo-N3-xd3" firstAttribute="centerX" secondItem="Odf-ko-fWx" secondAttribute="centerX" id="f6u-DR-eDI"/>
@@ -299,6 +309,7 @@
                     </view>
                     <connections>
                         <outlet property="CorrectLabel" destination="OMG-rg-J3n" id="FNs-7x-VpU"/>
+                        <outlet property="ScoreDescription" destination="rc7-yZ-bGI" id="gTD-1s-ZwE"/>
                         <outlet property="TopicLabel" destination="jQ6-Xn-Taf" id="O4o-yY-B1F"/>
                         <outlet property="TotalLabel" destination="X9B-8Z-hre" id="zBe-Sv-smf"/>
                     </connections>
@@ -312,6 +323,6 @@
         <image name="settings.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NRJ-Zi-tpF"/>
+        <segue reference="PLb-lo-all"/>
     </inferredMetricsTieBreakers>
 </document>

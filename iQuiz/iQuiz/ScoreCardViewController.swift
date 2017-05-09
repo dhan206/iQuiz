@@ -17,12 +17,23 @@ class ScoreCardViewController: UIViewController {
     @IBOutlet weak var CorrectLabel: UILabel!
     @IBOutlet weak var TotalLabel: UILabel!
     @IBOutlet weak var TopicLabel: UILabel!
+    @IBOutlet weak var ScoreDescription: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         CorrectLabel.text = "\(correctAnswers)"
         TotalLabel.text = "\(numberQuestions)"
         TopicLabel.text = topic
+        
+        if ((correctAnswers/numberQuestions) == 1) {
+            ScoreDescription.text = "Perfect!"
+        } else if (Double(Double(correctAnswers)/Double(numberQuestions)) > 0.5) {
+            ScoreDescription.text = "Awesome!"
+        } else if (Double(Double(correctAnswers)/Double(numberQuestions)) > 0.3) {
+            ScoreDescription.text = "Okay!"
+        } else {
+            ScoreDescription.text = "Better Luck Nextime!"
+        }
     }
 
     override func didReceiveMemoryWarning() {
